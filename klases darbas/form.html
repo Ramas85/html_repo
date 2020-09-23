@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<title>HTML Form Practice</title>
+		<meta charset="utf-8">
+		<!-- Formos kurimas -->
+	</head>
+	<body>
+		<h1>Duomenu informacija</h1>
+		<form method="post">
+			<fieldset>
+				<label>El. pasto adresas:*</label>
+				<input type="email" required>
+			</fieldset>
+			<fieldset>
+				<label>Slaptazodis:*</label>
+				<input type="password" required>
+			</fieldset>
+			<fieldset>
+				<label>Patvirtinti slaptazodi:*</label>
+				<input type="password" required>
+			</fieldset>
+			<fieldset>
+				<input type="checkbox">
+				<label>Sutinku su taisyklemis</label>
+			</fieldset>
+		<h2>Pasirinkite saskaitos adresa</h2>
+			<fieldset>
+				<label>Lytis *</label>
+				<select required>
+					<option>Moteris</option>
+					<option>Vyras</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Vardas:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pavarde:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Gatve, namo(buto) nr.:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pasto kodas:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Miestas:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Salis:*</label>
+				<select>
+					<option selected disabled>-</option>
+					<option>Lietuva</option>
+					<option>Latvija</option>
+					<option>Estija</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Telefonas:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Papildoma informacija</label>
+				<textarea></textarea>
+			</fieldset>
+			<fieldset>
+				<button type="submit">Registruotis</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
