@@ -1,0 +1,65 @@
+
+/*Elemento selektoriai*/
+
+article{
+    color:red;
+}
+/*universalus selektorius,dazniausiai setingams parastes atitraukimams nuo krasto ir t.t.*/
+*{
+    text-align: center;
+}
+#promo{
+    color: aqua;
+}
+.blue{
+    color: blue;
+}
+.center{
+    text-align: center;
+}
+.bg_silver{
+background-color: silver;
+}
+
+a[href="https://www.delfi.lt"]{
+    color:red;
+}
+a[href="https://www.smm.lt"]{
+    color:blue;
+}
+a[href='https://www.lrytas.lt']{
+    color:violet;
+}
+a[href$='.docx']{
+    color:aqua;
+}
+/*ziuri i pradzia*/
+a[href^='']{
+    color:aqua;
+}
+a:hover{
+    color: silver;
+}
+.todo ul :first-child{
+    color: red;
+}
+.todo ul :last-child{
+    color: green;
+}
+.todo ul :nth-child(2){
+    color: aqua;
+}
+
+.todo ul :nth-child(2n+2){
+    color: greenyellow;
+} 
+
+/*nurodom tikslu kelia iki elemento kuri norim keisti*/
+
+.todo ul li{
+    color:red;
+}
+.todo ul>li>ul>li{
+    color:green;
+}
+
