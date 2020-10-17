@@ -1,0 +1,59 @@
+@import "mixins";
+@import 'components';
+@import 'var';
+
+body {
+  header {
+    h1 {
+      color: $h1_Color;
+      text-align: $text_Center;
+      padding: $padding;
+      margin: auto;
+    }
+
+    div {
+      text-align: $text_Center;
+      margin: $margin;
+      word-spacing: $spacing;
+
+      span {
+        font-style: $font_Style;
+      }
+    }
+  }
+}
+
+.flex-container {
+  ul {
+    padding: $padding;
+    @extend .flex-container;
+
+
+    li {
+      padding: $padding;
+      border: $bord;
+      @include round(40px);
+    }
+  }
+}
+
+.container {
+  @extend .container;
+  align-content: space-evenly;
+
+  div {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+
+    .img2 {
+      @include round(50px);
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,27 @@
+@import 'var';
+@import 'components';
+@import "mixins";
+
+
+nav{
+  @extend .nav;
+  @include round(20px);
+  background-color:$navColors;
+  li{
+    display:inline-block;
+    a{
+      color:#1c191b;
+      @extend .button;
+      text-decoration: none;
+      &:hover{
+        color:#dd8899;
+      }
+    }
+  }
+}
+.pirmaeilute{
+  background-color:$pirmaeiluteColor;
+  .antraeilute{
+    color: $antraluteColor;
+  }
+}
