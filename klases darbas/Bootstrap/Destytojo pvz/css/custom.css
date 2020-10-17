@@ -1,0 +1,12 @@
+.container-fluid {
+    background-color: blue;
+}
+
+.container {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+p {
+    color: black;
+}

@@ -1,0 +1,52 @@
+.conteiner {
+    display: flex;
+}
+
+p {
+    border-style: solid 1px;
+    background-color: turquoise;
+}
+
+div {
+    border-style: solid 1px;
+    background-color: turquoise;
+}
+
+main,
+header,
+section,
+footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffffff;
+}
+
+main {
+    background: #000000;
+}
+
+.header {
+    background: #03a9f4;
+}
+
+.hero {
+    background: #828e8f;
+}
+
+.sidebar {
+    border: 1px solid #000000;
+}
+
+.MainContent {}
+
+.ExtraContent {}
+
+.relatedrimage {}
+
+.relatedpost {}
+
+.footer {
+    border: 1px solid #000000;
+    background: #616161;
+}

@@ -1,0 +1,44 @@
+body {
+    background: #eee url('../img/car.jpg');
+    background-size: contain;
+}
+
+section h1 {
+    color: #32a2a8;
+    font-size: 2.2em;
+    font-family: 'Arial', 'Tahoma', sans-serif;
+}
+
+section h1,
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    /*viskas bus didziosiomis raidem*/
+    text-transform: uppercase;
+}
+
+section h2 {
+    color: green;
+    font-size: 1.8em;
+}
+
+section article p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section article p span {
+    font-weight: bold;
+    /*bolder 500*/
+    text-decoration: underline;
+    line-height: 2;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section {
+    /*geriau naudoti background-color: rgba(red, green, blue, 0.6); nei opacity .7, rgba uzdeda teksta ant virsaus Naujiena uzrasas matosi geriau*/
+    background-color: rgba(red, green, blue, 0.6);
+    padding: 20px;
+}

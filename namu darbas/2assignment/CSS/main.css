@@ -1,0 +1,59 @@
+/*****************************Header section***********************
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+div {
+    border: 1px solid black
+}
+
+section {
+    /* Ka reiskia background-size: cover ir contains? */
+    position: relative;
+    width: 100%;
+    height: 1165px;
+    background: url("../img/layer_3.png");
+    background-size: cover;
+    background-color: rgba(red, green, blue, 1);
+}
+
+section:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(red, green, blue, 0.8);
+    z-index: 1;
+    width: 100%;
+    height: 1165px;
+    background: url("../img/background.png");
+    background-size: cover;
+    opacity: 0.73;
+}
+
+.anveshan {
+    /* Style for "anveshan" */
+    width: 188px;
+    height: 27px;
+    color: #fefefe;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "anveshan" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+/******************************************************************

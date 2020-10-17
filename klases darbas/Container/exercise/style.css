@@ -1,0 +1,73 @@
+.paraste {
+    border-top: rgb(242, 242, 223) solid 5px;
+    border-bottom: rgb(242, 242, 223) solid 5px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wearesofa {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    /* margin-top:-50px; */
+    /*border:1px solid #000; /*doted dashed*/
+    border-top: 0px;
+    padding: 25px;
+    width: 80%;
+}
+
+main article {
+    width: 20%;
+    margin: 25px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+}
+
+span {
+    color: lightgray;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1,
+h2 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+p {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.fa-angle-double-right {
+    background-color: white;
+    color: grey;
+}
+
+i {
+    font-size: 25px;
+}
+
+footer {
+    padding-bottom: 10px;
+}

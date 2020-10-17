@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+.container{
+    background-color: #eee;
+    margin:50px auto;
+    /* margin-top:-50px; */
+    border:1px solid #000; /*doted dashed*/
+    border-top:5px dashed #ee88ff;
+    padding:25px;
+    width: 80%;
+}
+nav{
+    height: 50px;
+    background-color: #00ffdd;
+    padding: 5px;
+}
+nav ul{
+    margin:0;
+    padding: 0;
+}
+nav li{
+    list-style: none;
+    display:inline-block;
+    background-color: #ee88ff;
+    padding: 5px;
+    width: 15%;
+}
+nav li:hover{
+    background-color: green;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+}
+.fa-angle-double-right{
+
+    background-color: green;
+    
+}
