@@ -1,0 +1,16 @@
+@import 'var';
+.text {
+    width: 784px;
+    height: 54px;
+    font-family: $fontRobo;
+    font-size: 73px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 71px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "R, esearch" */
+    letter-spacing: normal;
+    line-height: normal;
+    margin: auto;
+}
