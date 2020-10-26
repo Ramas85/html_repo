@@ -19,6 +19,41 @@
   padding: 0;
 }
 
+.back {
+  background-size: 100%;
+  background-color: transparent;
+  background: url(../img/background.png);
+  width: auto;
+  height: 1165px;
+  background-size: auto;
+  background-color: rgba(255, 255, 255, 0);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.layer {
+  background-size: 100%;
+  background-color: transparent;
+  background: url(../img/layer_2.png);
+  width: auto;
+  height: 1165px;
+  background-size: auto;
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trikampiai {
+  background: url(../img/3_trikampiai.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: auto;
+  height: 1165px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 header {
   /* Ka reiskia background-size: cover ir contains? */
 }
@@ -74,11 +109,30 @@ header .topnav {
           margin-block-start: auto;
 }
 
-.right_side {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+.first_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first_page2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.topnav_right {
+  text-align: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
 }
 
 .contact {
@@ -89,7 +143,6 @@ header .topnav {
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: normal;
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
@@ -121,44 +174,6 @@ header .topnav {
 conteiner-fluid {
   width: 100%;
   height: 100%;
-  margin: 0, 0, 0, 0;
-  padding: 0, 0, 0, 0;
-}
-
-.back {
-  border: 1px solid black;
-  background-color: transparent;
-  background: url(../img/background.png);
-  background-size: cover;
-  width: auto;
-  height: 1165px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-color: rgba(255, 255, 255, 0);
-  text-align: center;
-}
-
-.layer {
-  background-color: transparent;
-  background: url(../img/layer_2.png);
-  background-size: cover;
-  width: auto;
-  height: 1165px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  opacity: 0.9;
-}
-
-.trikampiai {
-  /* background-color: transparent; */
-  background: url(../img/3_trikampiai.png);
-  background-size: cover;
-  width: auto;
-  height: 1165px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  /* background-color: #0a030e; */
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .research {
@@ -173,10 +188,6 @@ conteiner-fluid {
   margin-top: 50px;
 }
 
-.little {
-  margin: 20px;
-}
-
 .Bg_text {
   text-align: center;
 }
@@ -185,6 +196,7 @@ conteiner-fluid {
   text-align: center;
   opacity: 1;
   padding-bottom: 0px;
+  margin-top: 65vh;
 }
 
 .mouse .mouse1 {
@@ -238,8 +250,8 @@ conteiner-fluid {
 
 .overlay_info {
   position: absolute;
-  top: 22%;
-  left: 45%;
+  top: 24%;
+  left: 43%;
   font-size: 1.5vh;
 }
 
@@ -249,44 +261,16 @@ conteiner-fluid {
 }
 
 .container {
-  width: 57%;
-}
-
-.diagramtext1 {
-  height: 17px;
-  color: #383838;
-  font-family: "Exo 2", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 44px;
-  /* Text style for "Interdum t" */
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  font-weight: bold;
-}
-
-.diagramtext2 {
-  height: 34px;
-  color: #7e7e7e;
-  font-family: "Exo 2", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 21px;
-  text-align: left;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
+  width: 100%;
 }
 
 .boxSizing {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
   width: auto;
+  padding-top: 3%;
 }
 
 .marginauto {
@@ -301,15 +285,15 @@ conteiner-fluid {
 
 .BG_textdiagram {
   text-align: left;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .diagramtextsize {
   color: #404040;
   font-family: Roboto;
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 70px;
   text-align: left;
   text-transform: uppercase;
@@ -337,6 +321,11 @@ hr {
   opacity: 15%;
 }
 
+.short_diagram {
+  margin-top: 5%;
+  height: 4px;
+}
+
 .newsrightsidetop {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,22 +343,6 @@ hr {
   color: #5d5d5d;
   font-family: "Exo 2", sans-serif;
   text-align: left;
-}
-
-#process {
-  color: #404040;
-  font-family: "Exo 2", sans-serif;
-  font-size: 72px;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 70px;
-  text-align: center;
-  text-transform: uppercase;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  font-weight: bolder;
 }
 
 /******************************process**************************************/
@@ -515,7 +488,7 @@ h1 {
   /* text-align:center; */
 }
 
-section article {
+article {
   width: 37vh;
   margin: 19px;
   display: inline-block;
@@ -534,15 +507,10 @@ h2 {
   color: #5d5d5d;
   font-family: "Exo 2", sans-serif;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 900;
   font-style: normal;
-  letter-spacing: normal;
-  line-height: 26px;
   text-align: left;
   text-transform: uppercase;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
   margin-bottom: 25px;
 }
 
@@ -552,73 +520,102 @@ h2 {
   font-family: "Exo 2", sans-serif;
   font-size: 15px;
   font-weight: 300;
-  font-style: normal;
-  letter-spacing: normal;
   line-height: 26px;
   text-align: left;
-  font-style: normal;
-  letter-spacing: normal;
   line-height: normal;
 }
 
 /****************************SERVICES & TERMS*************************/
-.col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-p {
+.service_img {
+  background-size: 100% auto;
+  background-color: transparent;
+  background: url(../img/1.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: auto;
+  height: 1000px;
+  background-size: auto;
+  background-color: rgba(77, 24, 24, 0);
   text-align: center;
-  font-size: 7px;
-  text-align: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: auto;
+}
+
+.serv_text {
+  text-align: center;
+  margin-top: 5vh;
   margin-bottom: auto;
-}
-
-.service_text_name {
-  margin-top: 8px;
-}
-
-.one {
-  width: 10px;
-  height: 50px;
-  width: 27%;
-  float: left;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.two {
-  width: 15%;
-  height: 50px;
-  float: left;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 100%;
 }
 
 .BG_service {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 200px;
   margin-bottom: auto;
 }
 
 .services_hr {
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
   width: 3%;
+}
+
+.servicestextsize {
+  color: white;
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.anveshantext_services {
+  width: 472px;
+  height: 44px;
+  color: whitesmoke;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.service_margin {
+  margin-top: 25vh;
+}
+
+/**********************************bandymas***********************/
+.services_arow {
+  color: #eaafd6;
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+}
+
+.services_big_text {
+  color: lightgrey;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.services_small_text {
+  color: lightgrey;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.one_service {
+  width: 27%;
+  background-color: #7a225d;
+}
+
+.service_info_color {
+  background-color: #480048;
+}
+
+.margin_services {
+  margin-top: 7%;
 }
 /*# sourceMappingURL=main.css.map */

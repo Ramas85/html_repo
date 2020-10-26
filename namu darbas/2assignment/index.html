@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;1,300;1,400;1,600;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../2assignment/css/bootstrap.min.css">
     <!-- Fontawsome -->
@@ -14,33 +15,28 @@
     <link rel="stylesheet" href="../2assignment/CSS/normalize.css">
     <link rel="stylesheet" href="../2assignment/CSS/main.css">
     <link rel="stylesheet" href="../2assignment/libs/fontawesome-free-5.15.1-web/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,500;1,600&display=swap" rel="stylesheet">
     <title>Namu darbas</title>
 </head>
 
-
 <body>
     <header>
-        <!-- <div class="container-fluid"> -->
         <div class="layer">
             <div class="trikampiai ">
                 <div class="back">
                     <div class="row">
-                        <div class="col">
+                        <div class="col first_page">
                             <div class="float">
                                 <img class="logo1" src="../2assignment/img/logo1.svg" alt="logo1">
                                 <p class="anveshan">ANVESHAN</p>
                                 <img class="anveshan_hindi" src="../2assignment/img/Anveshan_(Hindi).svg" alt="Anveshan_(Hindi)">
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="topnav">
-                                <div class="topnav_right">
-                                    <a class="contact" href="#contact">CONTACT</a>
-                                    <a class="contact" href="#contact">|</a>
-                                    <a class="contact" href="#contact">MENU</a>
-                                    <i class="fas fa-bars"></i>
-                                </div>
+                        <div class="col first_page2">
+                            <div class="topnav_right">
+                                <a class="contact" href="#contact">CONTACT</a>
+                                <a class="contact" href="#contact">|</a>
+                                <a class="contact" href="#contact">MENU</a>
+                                <i class="fas fa-bars"></i>
                             </div>
                         </div>
                     </div>
@@ -48,7 +44,7 @@
                         <div class="Bg_text margin">
                             <span class="research">Research & Analysis</span>
                         </div>
-                        <div class="Bg_text margin little">
+                        <div class="Bg_text margin">
                             <span class="driving">driving results</span>
                         </div>
                         <div class="Bg_text margin">
@@ -66,31 +62,26 @@
                 </div>
             </div>
         </div>
-        <!-- </div> -->
     </header>
+    <!-- *******************************************************************DIAGRAM**************************************************** -->
     <div class="container-fluid ">
-        <div class="row">
+        <div class="row background_color_diagram">
             <div class="col-lg-6 margin0 textoverlay ">
-                <!-- <div class="textoverlay "> -->
                 <img class="card_image" src="../2assignment/img/diagram1.png" alt="diagram1">
                 <p class="overlay_info">Interdum tincidunt<br><span class="text_overlay2">nec laoreet volutpat, mi diam consectetur nisl, a vestibulum enimer</span></p>
-                <!-- <p class="overlay_info">nec laoreet volutpat, mi diam consectetur nisl, a vestibulum enimer</p> -->
-                </img>
-                <!-- </div> -->
             </div>
             <div class="col-lg-6 marginauto ">
                 <div class="boxSizing">
                     <div class="BG_textdiagram">
                         <span class="diagramtextsize">Quisque <span style="color:red">&</span><br>siter amet</span>
-                        <hr>
+                        <hr class="short_diagram">
                     </div>
                     <div class="Boxdiv"><span class="diagramtextsmall">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet volutpat, mi diam <br> consectetur nisl, a vestibulum enim ligula a enim. Phasellus nec convallis lorem. Vestibulum a vestibulum enim ligula a enim. Phasellus nec convallis lorem. 
                     </span></div>
                     <hr class="long">
                     <div class="newsrightsidetop">
                         <video width="155" height="100" controls>
-                            <source src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" type="video/webm">
-                            <!-- <source src="/media/cc0-videos/flower.mp4" type="video/mp4"> -->
+                            <source src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" type="video/webm">                            
                             Sorry, your browser doesn't support embedded videos.
                         </video>
                         <span class="diagramtextsmall2">See how lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sollicitudin augue.</span>
@@ -102,7 +93,7 @@
     <div class="boxSizing">
         <div class="row">
             <section class="process">
-                <p id="process">our process</p>
+                <h1>our process</h1>
                 <hr class="hr_process_short">
                 <span class="processtextsmall1">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet volutpat, mi diam consectetur nisl, a <br> vestibulum enim ligula a enim. Phasellus nec convallis lorem. Vestibulum a vestibulum enim ligula a enim. <br> Phasellus nec convallis lorem. </span>
             </section>
@@ -114,7 +105,7 @@
             <div class="d">deliver</div>
         </div>
     </div>
-    <section class="info">
+    <div class="info">
         <article>
             <h2>Meeting</h2>
             <p class="p_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sollicitudin augue. Sed dui quam, molestie at semper vitae, sagittis eu justo.Lorem ipsum dolor </p>
@@ -131,87 +122,95 @@
             <h2>deliver</h2>
             <p class="p_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sollicitudin augue. Sed dui quam, molestie at semper vitae, sagittis eu justo.Lorem ipsum dolor </p>
         </article>
-    </section>
     </div>
     <!-- *******************************************************************SERVICES & TERMS**************************************************** -->
-    <div class="boxSizing">
-        <div class="BG_service">
-            <span class="diagramtextsize">SERVICES <span style="color:red">&</span> TERMS</span>
-            <hr class="services_hr">
+    <div class="service_img ">
+        <div class="boxSizing">
+            <div class="BG_service">
+                <span class="servicestextsize">SERVICES <span style="color:red">&</span> TERMS</span>
+                <hr class="services_hr">
+            </div>
+        </div>
+        <div class="serv_text">
+            <span class="anveshantext_services">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet volutpat, mi diam consectetur nisl, a </span>
+            <br>
+            <span class="anveshantext_services">vestibulum enim ligula a enim. Phasellus nec convallis lorem. Vestibulum a vestibulum enim ligula a enim.</span>
+            <br>
+            <span class="anveshantext_services">Phasellus nec convallis lorem.</span>
+        </div>
+        <!-- /****************************************services**********************************************/ -->
+        <div class="container margin_services">
+            <div class="row">
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+                <div class="col one_service">
+                    <p class="services_arow"><i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-10 col-xs-12 service_info_color">
+                    <p class="services_big_text">Adipisecting</p>
+                    <p class="services_small_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="Bg_text">
-        <span class="anveshantext">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet volutpat, mi diam consectetur nisl, a </span>
-        <br>
-        <span class="anveshantext">vestibulum enim ligula a enim. Phasellus nec convallis lorem. Vestibulum a vestibulum enim ligula a enim.</span>
-        <br>
-        <span class="anveshantext">Phasellus nec convallis lorem.</span>
-    </div>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one">
-                <p class="service_text_name">Adipisecting<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one ">
-                <p class="service_text_name">Sit amet consectetur<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one ">
-                <p class="service_text_name">Adipisecting<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one">
-                <p class="service_text_name">Quisquesit amet<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one ">
-                <p class="service_text_name">Adipisecting<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one ">
-                <p class="service_text_name">Quisquesit amet<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one">
-                <p class="service_text_name">Molestie at semper<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one ">
-                <p class="service_text_name">Sit amet consectetur<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-            <div class="col two">
-                <p>1</p>
-            </div>
-            <div class="col-md-3 one ">
-                <p class="service_text_name">Molestie at semper<br><span class="service_text">Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet</span></p>
-            </div>
-        </div>
-    </div>
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
